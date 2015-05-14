@@ -7,7 +7,7 @@ bool qpskElementDemodulatorTimingPhase(double sampleIn, Symbol *out){
 
 	double Irec = 0.0, Qrec = 0.0, Ifir = 0.0, Qfir = 0.0;
 	double ICorrected = 0, QCorrected = 0;
-	bool strobe = false;
+	bool strobe = false; //
 
 	Irec = sampleIn*Icarrier[carrierIndex];
 	Qrec = sampleIn*Qcarrier[carrierIndex];

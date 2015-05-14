@@ -6,4 +6,4 @@
 bool qpskElementDemodulatorTimingPhase(double sampleIn, Symbol *out);
 
 #endif
-
+//
