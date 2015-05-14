@@ -28,6 +28,7 @@ void simple_fir_filterI(double *y, double x){
 	*y = acc;
 }
 
+//
 void simple_fir_filterQ(double *y, double x){
 	static ap_shift_reg<double,FILTER_TAPS> shiftRegister; //use predefined shift register class
 
